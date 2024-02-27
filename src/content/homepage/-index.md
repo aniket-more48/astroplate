@@ -7,7 +7,7 @@ banner:
   button:
     enable: true
     label: "Get Started"
-    link: "https://github.com/zeon-studio/astroplate"
+    link: "https://calendly.com/splicebit/30min"
 
 # Features
 features:
@@ -38,7 +38,7 @@ features:
     button:
       enable: true
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
+      link: "https://calendly.com/splicebit/30min"
     accordion:
       enable: false
 
@@ -87,7 +87,7 @@ services:
     button:
       enable: false
       label: "Get Started Now"
-      link: "https://github.com/zeon-studio/astroplate"
+      link: "https://calendly.com/splicebit/30min"
     accordion:
       enable: false
 ---

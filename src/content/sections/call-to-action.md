@@ -6,5 +6,5 @@ description: "Embark on digital journey with us and unlock your potential ."
 button:
   enable: true
   label: "Get Started Now"
-  link: "https://github.com/zeon-studio/astroplate"
+  link: "https://calendly.com/splicebit/30min"
 ---
