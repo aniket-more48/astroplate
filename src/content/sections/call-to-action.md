@@ -1,8 +1,8 @@
 ---
 enable: true
-title: "Ready to build your next project with Astro?"
+title: "Ready to build your next project with Splicebit?"
 image: "/images/call-to-action.png"
-description: "Experience the future of web development with Astroplate and Astro. Build lightning-fast static sites with ease and flexibility."
+description: "Embark on digital journey with us and unlock your potential ."
 button:
   enable: true
   label: "Get Started Now"

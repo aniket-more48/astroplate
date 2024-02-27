@@ -11,3 +11,18 @@ export type Button = {
   label: string;
   link: string;
 };
+
+export type accordion = {
+  enable: boolean;
+  label: string;
+  link: string;
+};
+
+export type Service = {
+  button: button;
+  image: string;
+  bulletpoints: string[];
+  content: string;
+  title: string;
+  accordion: accordion;
+};
