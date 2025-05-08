@@ -78,3 +78,29 @@ code {
 		background: hsl(random(360), 70%, 50%);
 	}
 }
+
+.hiddenxx {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateY(-100%);
+	transition: all 1s;
+}
+
+.showxx {
+	opacity: 1;
+	filter: blur(0);
+	transform: translateY(0);
+}
+
+.hiddenImg {
+	opacity: 0;
+	filter: blur(5px);
+	transform: translateX(-100%);
+	transition: all 2s;
+}
+
+.showImg {
+	opacity: 1;
+	filter: blur(0);
+	transform: translateX(0);
+}

@@ -64,7 +64,7 @@ const { banner, features, services }: Homepage = homepage.data;
   <section class="section pt-14">
     <div class="container">
       <div class="row justify-center">
-        <div class="lg:col-7 md:col-9 mb-8 text-center">
+        <div class="lg:col-7 md:col-9 mb-8 text-center hiddenxx">
           <h1
             set:html={markdownify(banner.title)}
             class="mb-4 text-h3 lg:text-h1"
@@ -214,3 +214,35 @@ const { banner, features, services }: Homepage = homepage.data;
   <!-- <Testimonial testimonial={testimonial} /> -->
   <CallToAction call_to_action={call_to_action} />
 </Base>
+
+<script>
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if (entry.isIntersecting) {
+      entry.target.classList.add('showxx');
+    } 
+    // else {
+    //   entry.target.classList.remove('showxx');
+    // }
+  });
+});
+
+const hiddenElements = document.querySelectorAll('.hiddenxx');
+hiddenElements.forEach((el) => observer.observe(el));
+
+const ImageObserver = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    console.log(entry)
+    if (entry.isIntersecting) {
+      entry.target.classList.add('showImg');
+    } 
+    // else {
+    //   entry.target.classList.remove('showxx');
+    // }
+  });
+});
+
+const hiddenImageElements = document.querySelectorAll('.hiddenImg');
+hiddenImageElements.forEach((el) => ImageObserver.observe(el));
+</script>
